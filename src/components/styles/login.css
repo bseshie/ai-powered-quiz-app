@@ -1,0 +1,26 @@
+.LoGin{
+margin-top: 12%;
+}
+ 
+h2{
+  color:#0F4C75 ;
+}
+
+.loginBtn,.submitBtn{
+  background-color: #0F4C75;
+  color: #fff;
+}
+
+.loginImg{
+  max-width: 27.5rem;
+}
+
+
+.card{
+  border-radius: 20px;
+}
+
+.carDbut{
+  background-color: #0F4C75;
+  color: #fff;
+}

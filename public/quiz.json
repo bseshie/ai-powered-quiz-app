@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "topic": "Science: Computers Quiz",
+    "title": "Science: Computers",
+    "description": "Description for Quiz 1",
+    "image": "Ai.png",
+    "api_url": "https://opentdb.com/api.php?amount=15&category=18"
+  },
+  {
+    "id": "02",
+    "topic": "Science: Nature Quiz",
+    "title": "Science: Nature",
+    "description": "Description for Quiz 2",
+    "image": "database.png",
+    "api_url": "https://opentdb.com/api.php?amount=15&category=17"
+  },
+  {
+    "id": "03",
+    "topic": "Science: Mathematics Quiz",
+    "title": "Science: Mathematics",
+    "description": "Description for Quiz 3",
+    "image": "discMaths.png",
+    "api_url": "https://opentdb.com/api.php?amount=15&category=19"
+  },
+  {
+    "id": "04",
+    "topic": "General Knowledge Quiz",
+    "title": "General Knowledge",
+    "description": "Description for Quiz 4",
+    "image": "dataStr.png",
+    "api_url": "https://opentdb.com/api.php?amount=15&category=9"
+  },
+  {
+    "id": "05",
+    "topic": "Geography Quiz",
+    "title": "Geography",
+    "description": "Description for Quiz 5",
+    "image": "Java.png",
+    "api_url": "https://opentdb.com/api.php?amount=15&category=22"
+  },
+  {
+    "id": "06",
+    "topic": "Science: Gadgets Quiz",
+    "title": "Science: Gadgets",
+    "description": "Description for Quiz 6",
+    "image": "OpSys.png",
+    "api_url": "https://opentdb.com/api.php?amount=15&category=30"
+  }
+]

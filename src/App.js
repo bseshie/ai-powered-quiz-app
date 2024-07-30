@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Start from './components/Main';
+import Question from './components/Question';
+import Statistics from './components/Result';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Browse from './components/Browse';
+import { DataProvider } from './context/dataContext';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Start />} />
+          <Route path="/browse" element={<Browse />} />
+          <Route path="/question/:quizId" element={<Question />} />
+          <Route path="/result" element={<Statistics />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </Router>
+    </DataProvider>
   );
 }
 
 export default App;
+
+
+
+

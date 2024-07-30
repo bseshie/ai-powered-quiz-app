@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Helvetica Neue';
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    
+
+}
+
+.btn,
+.btn-dark,
+.btn-check:focus + .btn-dark,
+.btn-dark:focus,
+.btn-check:focus + .btn,
+.btn:focus {
+    border: none;
+    box-shadow: none;
+    /* background-color: #1679AB; */
+    background-color: #0F4C75;
+}
+
+.btn-dark:hover {
+    background: #212529;
+}
+
+.bg-primary,
+.btn-light {
+    letter-spacing: 0.7px;
+}
+
+
+.main{
+  background-color: #fff;
+  
+}
+
+
+.navbar-brand{
+  color: #0F4C75;
+}
+
+.quiz{
+  background-color: #D0D4CA;
+  height: 500px;
+}
+
+.quizbutton{
+  margin-top: 5%;
+  /* margin-left: 80%; */
+}
+
+.score{
+  margin-top: 20%;
+}
